@@ -1,0 +1,50 @@
+{
+    "Scratch CNN": {
+        "precision": 0,
+        "recall": 0.0,
+        "mean_iou": 0,
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 366,
+        "average_inference_seconds": 0.5943657762472867,
+        "average_inference_ms": 594.3657762472867,
+        "fps": 1.6824656465145271,
+        "class_results": {
+            "1": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 245
+            },
+            "2": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 121
+            }
+        },
+        "model_size_mb": 56.87955188751221
+    },
+    "Transfer Learning": {
+        "precision": 0.7084745762711865,
+        "recall": 0.5710382513661202,
+        "mean_iou": 0.8115150680382286,
+        "true_positives": 209,
+        "false_positives": 86,
+        "false_negatives": 157,
+        "average_inference_seconds": 1.0257307618798222,
+        "average_inference_ms": 1025.7307618798222,
+        "fps": 0.974914701950962,
+        "class_results": {
+            "1": {
+                "tp": 165,
+                "fp": 68,
+                "fn": 80
+            },
+            "2": {
+                "tp": 44,
+                "fp": 18,
+                "fn": 77
+            }
+        },
+        "model_size_mb": 158.0683650970459
+    }
+}
